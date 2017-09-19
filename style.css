@@ -1,78 +1,105 @@
-#header{
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	background-color: #ebebeb;
+body{
+	background-color: #777
+}
+
+.body-wrap{
+	margin-left: 100px;
+}
+
+#mainbox{
 	width: 960px;
-	text-align: center;
-	font-size: 18px;
-	color: #777;
-	padding: 30px;
+	height: 200px;
 	margin-bottom: 10px;
 }
 
-#body{
-	background-color: #777;
+
+.box1{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 468px;
+	float: left;
+	background-color: #ebebeb;
+	height: 200px;
+	margin-right: 10px;
+	text-align: center;
+	color: #777;
+	font-size: 18px;
 }
 
-.main-body{
-
-	margin-left: 25px;
+#header{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #ebebeb;
+	margin-bottom: 10px;
+	width: 960px;
+	height: 75px;
+	text-align: center;
+	font-size: 18px;
+	padding-top: 40px;
+	color: #777;
 }
 
 #nav{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	background-color: #ebebeb;
+	margin-bottom: 10px;
 	width: 960px;
+	height: 75px;
 	text-align: center;
 	font-size: 18px;
+	padding-top: 38px;
 	color: #777;
-	padding: 30px;
-	margin-bottom: 25px;
-
 }
 
-
-#wrap {
-	width: 1052px;
-}
-
-.left {
+#article{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	width: 54.5%;
-	background-color:#ebebeb;
+	background-color: #777;
+	margin: 20px;
+	height: 140px;
+	position: relative;
+	margin-top: 25px;
 	text-align: center;
-	padding-top: 30px;
-	font-size: 18px;
-	color: #777;
-	height: 250px;
-	float: left;
-	margin-right: 25px;
-	margin-bottom: 25px;
+	color: #ebebeb;
 }
 
-.right {
+#h1-h2{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	width: 40%;
 	background-color: #ebebeb;
 	position: relative;
-	right: 30px;
-	text-align: center;
-	padding-top: 30px;
-	font-size: 18px;
-	color: #777;
-	height: 250px;
-	float: left;
+	margin: 5px;
+	height: 40px;
 	margin-bottom: 10px;
+	text-align: center;
+	color: #777;
+	padding-top: 5px;
+}
+
+#paragraph{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #ebebeb;
+	position: relative;
+	margin: 5px;
+	height: 40px;
+	text-align: center;
+	color: #777;
+}
+
+.aside{
+	float:left;
+	background-color: #ebebeb;
+	width: 482px;
+	height: 200px;
+	text-align: center;
+	color: #777;
+	font-size: 20px;
 }
 
 #footer {
-font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	clear: both;
 	background-color: #ebebeb;
 	width: 960px;
+	height: 65px;
 	text-align: center;
 	font-size: 18px;
+	padding-top: 40px;
 	color: #777;
-	padding: 30px;
-	margin-top: 10px;
-	overflow: auto;
 }
-
